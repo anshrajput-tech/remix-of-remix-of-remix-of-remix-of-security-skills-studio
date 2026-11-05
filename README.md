@@ -4,7 +4,6 @@ Build a complete website for eSecurityIN, a cybersecurity training institute.
 
 Website references
 
-Competitor/reference website: https://www.craw.in
 
 Original content website: https://eSecurity.com
 
