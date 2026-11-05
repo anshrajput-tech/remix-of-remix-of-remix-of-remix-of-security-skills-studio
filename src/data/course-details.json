@@ -1,0 +1,352 @@
+{
+  "ai-augmented-offensive-security": {
+    "hours": 90,
+    "modules": [
+      {
+        "title": "AI-Augmented Security Programming & Automation",
+        "description": "Teaches recon and exploit scripting accelerated by AI copilots, building real automation tooling rather than manual one-off scripts."
+      },
+      {
+        "title": "AI-Augmented Threat Intelligence",
+        "description": "Covers AI-driven IOC and campaign analysis, showing how offensive practitioners use intelligence to prioritize and target engagements more effectively."
+      },
+      {
+        "title": "AI-Augmented Web, API & Mobile Application Security",
+        "description": "Covers OWASP fundamentals alongside authentication and authorization flaws specific to AI-agent-driven applications, an emerging and under-taught attack surface."
+      },
+      {
+        "title": "Adversarial AI & AI Red Teaming",
+        "description": "Covers jailbreaks, prompt injection, and model evasion as deliberate attack techniques against AI systems, treating AI red teaming as its own discipline."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "OSINT Target Profile \u2014 Build a passive recon profile of a lab target using public records, DNS/WHOIS, and social footprint data before touching a single port. Active Enumeration Sweep \u2014 Run active scans to map live hosts, open services, and versions across a lab network. Exploit & Escalate \u2014 Exploit a vulnerable lab host and chain a privilege-escalation technique to full control. AI-Assisted Recon Script \u2014 Direct an AI copilot to build a Python recon script, then debug and extend it against a live target. OWASP Top 10 Lab Walkthrough \u2014 Break a deliberately vulnerable web app across multiple OWASP Top 10 categories and document each finding.",
+    "faqs": "[]",
+    "sourceDuration": "3 Months"
+  },
+  "esecurityin-ai-security-foundations": {
+    "hours": 60,
+    "modules": [
+      {
+        "title": "State of AI in Cybersecurity",
+        "description": "Surveys the current offense, defense, and risk landscape around AI, giving learners a grounded overview of where AI is actually changing attacker and defender workflows today."
+      },
+      {
+        "title": "LLM & Prompt-Injection Security Basics",
+        "description": "Covers how AI-powered applications get attacked, focusing on prompt injection as the foundational vulnerability class specific to LLM-based systems."
+      },
+      {
+        "title": "Using AI Copilots for Triage & Recon",
+        "description": "Hands-on practice applying AI copilots to real triage and reconnaissance tasks, pulled directly from our SOC and offensive security modules."
+      },
+      {
+        "title": "AI Governance Basics",
+        "description": "Introduces the NIST AI RMF and EU AI Act at a high level, closing with a mini project that applies the month's concepts to a small practical scenario."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "Risk Assessment Walkthrough \u2014 Score a sample organization's assets and produce a basic risk register using CIA-triad thinking. Threat Landscape Mapping \u2014 Research a named threat-actor group and map its motivations onto a target industry profile. AI-Assisted Recon Script \u2014 Get hands-on with an AI copilot inside a real security workflow, not just theory. IOC Enrichment Exercise \u2014 Enrich a set of raw indicators of compromise and write a short campaign-attribution brief.",
+    "faqs": "[]",
+    "sourceDuration": "2 Months"
+  },
+  "esecurityin-certified-cybersecurity-master-program-eccmp": {
+    "hours": 390,
+    "modules": [
+      {
+        "title": "Cybersecurity Foundations",
+        "description": "Establishes the analyst mindset before any tooling: the CIA triad, risk vs. threat vs. vulnerability, security control classification, and the Cyber Kill Chain mapped against MITRE ATT&CK. Learners close the module by building a one-page threat profile for a fictional organization \u2014 their first structured security deliverable."
+      },
+      {
+        "title": "Networking Fundamentals",
+        "description": "Covers the OSI/TCP-IP model, protocol-level vulnerabilities, and firewall/VLAN segmentation through live packet capture. The centerpiece is watching an ARP poisoning attack unfold byte-by-byte in real traffic \u2014 the moment most learners cite as making networking attacks \"click\" for the first time."
+      },
+      {
+        "title": "Linux Essentials for Cybersecurity",
+        "description": "Filesystem permissions, process management, CLI triage tools, and SSH hardening \u2014 taught entirely on a real Linux VM, not a simulator. Learners leave with a personalized host-hardening checklist and the experience of scoring a peer's hardened system against a professional rubric."
+      },
+      {
+        "title": "Windows Security & PowerShell Fundamentals",
+        "description": "Active Directory structure, GPO security, Windows event log analysis, and PowerShell scripting for security automation. Learners use BloodHound to discover a hidden privilege-escalation path in a lab AD \u2014 the same technique behind the Colonial Pipeline breach \u2014 and then close it."
+      },
+      {
+        "title": "AI-Augmented Security Programming & Automation",
+        "description": "Python for log parsing, regex-based IOC extraction, and API-driven recon (Shodan, VirusTotal), with AI used to accelerate \u2014 and critically validate \u2014 generated code. The module closes with learners publishing a working AI-augmented security tool to GitHub: a recruiter-visible artifact by Week 5."
+      },
+      {
+        "title": "AI-Augmented Threat Intelligence",
+        "description": "Threat intel frameworks, the Diamond Model, malware behavior analysis in sandboxed environments, and structured IOC triage using MISP. Learners analyze a real APT campaign (e.g., Lazarus Group) with an AI co-analyst and produce the exact threat-profile format a Day-1 SOC analyst submits."
+      },
+      {
+        "title": "Footprinting, Reconnaissance & Enumeration",
+        "description": "Passive and active OSINT techniques, Nmap scanning, and service/user enumeration. Learners first map their own digital footprint \u2014 exposed emails, credentials, linked accounts \u2014 making the risk of reconnaissance personally real before ever pointing a tool at a target network."
+      },
+      {
+        "title": "Vulnerability Assessment, Exploitation & Privilege Escalation",
+        "description": "Methodology for identifying, assessing, and ethically exploiting software and system vulnerabilities: Nessus and OpenVAS vulnerability scanning, CVE prioritization, exploit modification, and Metasploit fundamentals. Covers Linux and Windows local privilege escalation \u2014 SUID abuse, kernel exploits, service misconfigurations, and token impersonation \u2014 with hands-on practice on vulnerable target machines."
+      },
+      {
+        "title": "AI-Augmented Web, API & Mobile Application Security",
+        "description": "OWASP Web and API Top 10 testing with Burp Suite, mobile static analysis with MobSF, and evaluation of AI-agent/LLM-integrated endpoints for prompt-injection and auth-flow abuse. Learners run a bug-bounty-style assessment on a vulnerable e-commerce platform and its AI chatbot, producing a tri-layer report: executive summary, technical findings, and developer remediation guide."
+      },
+      {
+        "title": "Network Penetration Testing & Wireless Security",
+        "description": "Internal network pentest methodology \u2014 initial access, lateral movement, pivoting \u2014 using Responder, CrackMapExec, and Impacket, plus WPA2/3 wireless assessment. The module ends with a full timed pentest engagement under exam-like conditions, producing a report in the exact format used by Big-4 consulting firms."
+      },
+      {
+        "title": "Cloud & AWS Security Fundamentals",
+        "description": "The shared responsibility model, least-privilege IAM design, and native AWS security services (GuardDuty, CloudTrail, Security Hub). Learners intentionally misconfigure \u2014 then detect, alert on, and remediate \u2014 a live S3 data exposure in a real AWS account, running the full attacker-to-defender loop on genuine cloud infrastructure."
+      },
+      {
+        "title": "AI-Augmented SOC Fundamentals",
+        "description": "SOC tiering, alert triage workflows, and incident case management using TheHive. The module's capstone is a 90-minute SOC shift simulation with an AI copilot \u2014 20 real-world-modeled tickets under a live clock, the closest approximation to Day-1 SOC work most learners will encounter before their first job."
+      },
+      {
+        "title": "AI-Augmented SIEM Engineering & Threat Detection",
+        "description": "Log ingestion and correlation rule building in Splunk, ATT&CK coverage mapping, and AI-assisted false-positive reduction. Learners author an original Sigma detection rule for a real ATT&CK technique and publish it to a shared cohort detection library \u2014 a public engineering artifact recruiters can verify."
+      },
+      {
+        "title": "AI-Augmented Endpoint Security, XDR & Threat Hunting",
+        "description": "Endpoint telemetry investigation, IOC-driven and behaviour-based hunting with YARA and OSQuery, and AI/SOAR-assisted triage. Includes a live lab demonstrating a prompt-injection attack against a security automation workflow \u2014 rare, formal classroom coverage of an emerging AI-security risk."
+      },
+      {
+        "title": "AI-Augmented Incident Response & Digital Forensics",
+        "description": "The full 6-phase IR lifecycle, disk and memory forensics with FTK Imager and Volatility 3, timeline reconstruction, and chain-of-custody documentation. Learners produce a court-admissible-format IR report on a simulated ransomware breach, drafted with an AI copilot and reviewed against real DFIR consulting-firm rubrics."
+      },
+      {
+        "title": "Capstone: Red-vs-Blue Simulation + GRC + Portfolio",
+        "description": "The program's final assessment - not an exam, but a live engagement. Learners run a full offensive kill chain while an opposing Blue Team detects and responds in real time, with SIEM/XDR telemetry monitored live throughout. Findings are mapped to ISO 27001:2022 or NIST CSF controls, and the entire output is packaged into a resume-ready portfolio - executive writeup, technical appendix, and GitHub evidence - then presented to an external industry panel."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-Year Students B.Tech / B.Sc students in Computer Science, Cybersecurity, or Cloud Security who want to build a portfolio \u2014 not just a resume line \u2014 and crack placements with certifications hiring managers actually respect.\",\"icon\":\"GraduationCap\"},{\"text\":\"Working Professionals IT professionals, system administrators, and early-career engineers transitioning into cybersecurity, looking to gain the offensive and defensive depth needed to step confidently into SOC analyst, penetration tester, or cloud security roles.\",\"icon\":\"Users\"}]",
+    "labs": "Full Network Pentest Simulation \u2014 Run a scoped, end-to-end penetration test against a lab network and deliver a professional findings report. Correlation Rule Build \u2014 Write and tune a SIEM correlation rule to detect a specific attack pattern in live-style log data. Timeline Reconstruction Lab \u2014 Use AI-assisted analysis to rebuild an attacker's full timeline from memory, disk, and log artifacts. Full-Spectrum Capstone Engagement \u2014 Execute one engagement spanning recon, exploitation, detection, and response across a simulated organization. Risk & Governance Summary \u2014 Translate the capstone's technical findings into a GRC-aligned executive risk brief.",
+    "faqs": "[]",
+    "sourceDuration": "12 Months"
+  },
+  "esecurityin-certified-offensive-security-certificate-ecosc": {
+    "hours": 200,
+    "modules": [
+      {
+        "title": "Cybersecurity Foundations",
+        "description": "A fast-paced version of the core Foundations module \u2014 CIA triad, threat-actor motivations, and baseline GRC concepts \u2014 paced for learners moving quickly into offensive specialization rather than needing the full beginner treatment."
+      },
+      {
+        "title": "Networking Fundamentals",
+        "description": "A condensed pass through the OSI/TCP-IP model and protocol fluency, focused specifically on the packet-level knowledge needed to attack networks effectively rather than general IT networking literacy."
+      },
+      {
+        "title": "Footprinting, Reconnaissance & Enumeration",
+        "description": "Covers passive OSINT and active enumeration methods for discovering hosts, services, and exposed information before any exploitation begins. Learners build a structured attack-surface map the way real red teams and bug bounty hunters do. The methodology layer that makes every later exploitation step targeted."
+      },
+      {
+        "title": "Vulnerability Assessment, Exploitation & Privilege Escalation",
+        "description": "Covers vulnerability scanning and prioritization, exploitation of common weaknesses across Windows and Linux targets, and privilege escalation to move from initial access to full control. Hands-on lab work builds the core exploitation skillset every offensive role requires."
+      },
+      {
+        "title": "AI-Augmented Web, API & Mobile Application Security",
+        "description": "Covers the OWASP Top 10, API-specific abuse patterns, and mobile vulnerabilities, plus authentication/authorization flaws specific to AI-agent-driven applications. Prepares learners for the application-layer attack surface behind most real-world breaches"
+      },
+      {
+        "title": "Network Penetration Testing & Wireless Security",
+        "description": "Ties together full pentest methodology \u2014 scoping, testing, exploitation, reporting \u2014 alongside wireless attacks like WPA/WPA2 cracking and rogue access points. Learners produce a professional-grade pentest report."
+      },
+      {
+        "title": "Capstone: Red-vs-Blue",
+        "description": "A live simulated engagement where learners execute a full offensive operation against a defended target, then produce GRC-aligned reporting and a portfolio deliverable suitable for job applications."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "Active Enumeration Sweep \u2014 Map live hosts, services, and versions across a lab network using active scanning tools. AI Vulnerability Scan & Triage \u2014 Run a vulnerability scanner and prioritize findings by exploitability and business impact. Exploit & Escalate \u2014 Chain an exploit with a privilege-escalation technique to take full control of a lab host. API Abuse & AI-Agent Auth Flaw Lab \u2014 Test an API and AI-agent integration for broken auth and agent-specific authorization flaws. Wireless Attack Lab \u2014 Capture and crack a WPA/WPA2 handshake and stand up a rogue access point.",
+    "faqs": "[]",
+    "sourceDuration": "6 Months"
+  },
+  "offensive-security-exploitation-certificate": {
+    "hours": 100,
+    "modules": [
+      {
+        "title": "Cybersecurity Foundations",
+        "description": "Establishes the core security mindset and baseline GRC concepts (the same base module used in the SOC certificate), anchoring every offensive skill taught afterward."
+      },
+      {
+        "title": "Windows Security & PowerShell Fundamentals",
+        "description": "Covers Active Directory, GPOs, and PowerShell scripting, with emphasis on the attack-path groundwork \u2014 credential abuse, lateral movement \u2014 relevant to offensive work."
+      },
+      {
+        "title": "Footprinting, Reconnaissance & Enumeration",
+        "description": "Covers passive OSINT and active enumeration methodology, building a structured attack-surface map before any exploitation begins."
+      },
+      {
+        "title": "Vulnerability Assessment, Exploitation & Privilege Escalation",
+        "description": "Covers scanning, prioritization, exploitation of common weaknesses, and privilege escalation across Windows and Linux targets in hands-on labs."
+      },
+      {
+        "title": "Network Penetration Testing & Wireless Security",
+        "description": "Ties together full pentest methodology and wireless-specific attacks, closing with a professional-grade pentest report."
+      },
+      {
+        "title": "AI-Augmented Web, API & Mobile Application Security",
+        "description": "Covers the OWASP Top 10, API abuse patterns, mobile vulnerabilities, and AI-agent-specific auth flaws \u2014 the application-layer surface behind most modern breaches."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "OSINT Target Profile \u2014 Build a passive recon profile of a lab target using public records and DNS/WHOIS data. Vulnerability Scan & Triage \u2014 Scan lab targets and rank findings by exploitability and business impact. Exploit & Escalate \u2014 Exploit a vulnerable host and escalate privileges to full control. OWASP Top 10 Lab Walkthrough \u2014 Exploit a vulnerable web app across several OWASP Top 10 categories. Wireless Attack Lab \u2014 Crack a lab WPA/WPA2 handshake and stand up a rogue access point.",
+    "faqs": "[]",
+    "sourceDuration": "3 Months"
+  },
+  "ai-augmented-defensive-security-soc": {
+    "hours": 90,
+    "modules": [
+      {
+        "title": "AI-Augmented SOC Fundamentals",
+        "description": "Covers alert triage and case management accelerated with AI copilots, building the instincts to separate false positives from genuine incidents efficiently."
+      },
+      {
+        "title": "AI-Augmented SIEM Engineering & Threat Detection",
+        "description": "Covers correlation rule design and ATT&CK-mapped gap analysis, using AI tooling to accelerate detection engineering at scale."
+      },
+      {
+        "title": "AI-Augmented Endpoint Security, XDR & Threat Hunting",
+        "description": "Covers IOC-driven and behavior-driven hunting across endpoints, using AI assistance to sift through large volumes of telemetry efficiently."
+      },
+      {
+        "title": "AI-Augmented Incident Response & Digital Forensics",
+        "description": "Covers the full IR lifecycle with AI-assisted timeline reconstruction, piecing together attacker actions faster than manual correlation alone."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "Alert Triage with an AI Copilot \u2014 Triage a queue of simulated SOC alerts, using an AI copilot to summarize context and recommend next steps. Correlation Rule Build \u2014 Write and tune a SIEM rule to catch a specific attack pattern. IOC-Driven Hunt \u2014 Hunt across sample endpoint telemetry for a known set of indicators of compromise. Behavior-Driven Hunt Hypothesis \u2014 Formulate and test a behavioral hunting hypothesis against XDR-style telemetry. Case Documentation Practice \u2014 Write a full SOC case file for a resolved incident in real analyst reporting format.",
+    "faqs": "[]",
+    "sourceDuration": "3 Months"
+  },
+  "esecurityin-certified-cybersecurity-practitioner-certificate": {
+    "hours": 200,
+    "modules": [
+      {
+        "title": "Cybersecurity Foundations",
+        "description": "Establishes the core security mindset: the CIA triad, common threat-actor motivations, and how risk is actually assessed and communicated in a business context. Also introduces baseline GRC concepts so learners understand the frameworks shaping every security decision downstream. This module is the anchor point every other competency in the program builds on."
+      },
+      {
+        "title": "Networking Fundamentals",
+        "description": "Covers the OSI and TCP/IP models, how packets actually move across a network, and how to read and interpret traffic using tools like Wireshark. Learners build the protocol-level fluency \u2014 DNS, DHCP, HTTP/S, routing basics \u2014 needed to understand how networks work and how they can be attacked or defended. Foundational for every downstream offensive or defensive module."
+      },
+      {
+        "title": "Linux Essentials for Cybersecurity",
+        "description": "Builds real command-line fluency: navigating the filesystem, managing permissions and users, working with processes, and scripting basic automation in Bash. Learners also cover host-hardening basics since Linux underpins the majority of real-world servers and security tooling. Essential groundwork for SOC analysts and penetration testers alike."
+      },
+      {
+        "title": "Windows Security & PowerShell Fundamentals",
+        "description": "Covers Active Directory structure, Group Policy Objects, and Windows event logging, alongside practical PowerShell scripting. Learners see how Windows environments are typically attacked and how the same telemetry is used defensively. Central to both attack-path work and detection engineering."
+      },
+      {
+        "title": "AI-Augmented Security Programming & Automation",
+        "description": "Teaches practical Python scripting for security tasks \u2014 parsing logs, automating recon, building simple tooling \u2014 paired with AI copilots that accelerate that workflow. Learners practice prompting AI assistants effectively for code generation and automation. Builds the automation mindset expected of modern practitioners on both offense and defense."
+      },
+      {
+        "title": "AI-Augmented Threat Intelligence",
+        "description": "Covers collecting, analyzing, and enriching indicators of compromise and campaign data, using AI tooling to accelerate correlation across large data sets. Learners practice translating raw intelligence into actionable outputs. Acts as the connective layer between findings, detection, and business-level risk communication."
+      },
+      {
+        "title": "Cloud & AWS Security Fundamentals",
+        "description": "Covers AWS IAM configuration, common misconfiguration patterns, and cloud-native attack surfaces such as exposed storage and over-permissioned roles. Learners practice hunting for and remediating the misconfigurations most responsible for real-world cloud breaches. Essential for any role touching modern, cloud-hosted infrastructure."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "Risk Assessment Walkthrough \u2014 Score assets against likelihood/impact and build a basic risk register. Packet Capture & Protocol ID \u2014 Capture live traffic in Wireshark and annotate a full protocol walkthrough. Linux Hardening Sprint \u2014 Lock down services, fix file permissions, and configure logging on a Linux VM. Active Directory Recon \u2014 Enumerate a lab AD domain's users, groups, and GPOs with PowerShell. AI-Assisted Recon Script \u2014 Use an AI copilot to build and extend a basic recon script.",
+    "faqs": "[]",
+    "sourceDuration": "6 Months"
+  },
+  "esecurityin-certified-defensive-security-certificate-ecdsc": {
+    "hours": 180,
+    "modules": [
+      {
+        "title": "Cybersecurity Foundations",
+        "description": "A fast-paced version of the core Foundations module \u2014 CIA triad, threat-actor motivations, and baseline GRC concepts \u2014 paced for learners moving quickly into defensive specialisation"
+      },
+      {
+        "title": "Windows Security & PowerShell Fundamentals",
+        "description": "Covers Active Directory structure, GPOs, and Windows event logging, alongside PowerShell scripting, with particular emphasis on the telemetry and event-log groundwork SOC analysts rely on daily."
+      },
+      {
+        "title": "AI-Augmented SOC Fundamentals",
+        "description": "Introduces the real workflow of a SOC \u2014 alert triage, prioritization, and case management \u2014 accelerated with AI copilots that summarize context and suggest next steps. Builds the analyst instincts needed to separate false positives from genuine incidents."
+      },
+      {
+        "title": "AI-Augmented SIEM Engineering & Threat Detection",
+        "description": "Covers designing and tuning correlation rules, engineering log sources for better signal, and mapping detections against MITRE ATT&CK to find coverage gaps, with AI tooling accelerating rule-writing and gap analysis."
+      },
+      {
+        "title": "AI-Augmented Endpoint Security, XDR & Threat Hunting",
+        "description": "Covers IOC-driven and behavior-driven hunting across endpoints using XDR-class tooling. Learners formulate and test hunting hypotheses, using AI assistance to sift through large volumes of telemetry efficiently."
+      },
+      {
+        "title": "AI-Augmented Incident Response & Digital Forensics",
+        "description": "Covers the full IR lifecycle \u2014 identification, containment, eradication, recovery \u2014 plus forensic artifact analysis across memory, disk, and log evidence, with AI-assisted timeline reconstruction to piece together attacker actions faster."
+      },
+      {
+        "title": "Capstone: Blue Team",
+        "description": "A live simulated intrusion response exercise where learners detect, investigate, and contain an active threat, then produce GRC-aligned incident documentation and a portfolio deliverable suitable for job applications."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "Alert Triage with an AI Copilot \u2014 Work a simulated alert queue with AI-assisted context and next-step recommendations. Case Documentation Practice \u2014 Document a full SOC case in real analyst reporting format. Correlation Rule Build \u2014 Write and tune a detection rule against sample log data. ATT&CK Gap Analysis \u2014 Map existing detections against MITRE ATT&CK and build a rule to close a coverage gap. IOC-Driven Hunt \u2014 Hunt sample endpoint telemetry for known indicators of compromise.",
+    "faqs": "[]",
+    "sourceDuration": "6 Months"
+  },
+  "cybersecurity-foundations-pro": {
+    "hours": 100,
+    "modules": [
+      {
+        "title": "Cybersecurity Foundations",
+        "description": "Establishes the core security mindset: the CIA triad, threat-actor motivations, and how risk is assessed and communicated. Introduces baseline GRC concepts that shape every later security decision. The anchor module for the rest of the program."
+      },
+      {
+        "title": "Networking Fundamentals",
+        "description": "Covers the OSI/TCP-IP models and how to read and interpret traffic using tools like Wireshark. Builds the protocol-level fluency needed to understand how networks work and how they're attacked or defended."
+      },
+      {
+        "title": "Linux Essentials for Cybersecurity",
+        "description": "Builds command-line fluency \u2014 filesystem navigation, permissions, processes, and basic Bash scripting \u2014 plus host-hardening basics, since Linux underpins most real-world servers and security tooling."
+      },
+      {
+        "title": "Windows Security & PowerShell Fundamentals",
+        "description": "Covers Active Directory, GPOs, Windows event logging, and practical PowerShell scripting, showing how Windows environments are typically attacked and defended."
+      },
+      {
+        "title": "AI-Augmented Security Programming & Automation",
+        "description": "Teaches practical Python scripting for security tasks paired with AI copilots that accelerate the workflow, building the automation mindset expected of modern practitioners."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "Risk Assessment Walkthrough \u2014 Score assets and build a basic risk register using CIA-triad thinking. Packet Capture & Protocol ID \u2014 Capture and annotate a full protocol walkthrough for a standard web request. Subnetting & Network Design \u2014 Design an IP addressing scheme for a small multi-department network. Linux Hardening Sprint \u2014 Harden a Linux VM's services, permissions, and logging. Active Directory Recon \u2014 Enumerate users, groups, and GPOs in a lab AD domain.",
+    "faqs": "[]",
+    "sourceDuration": "3 Months"
+  },
+  "purple-team-cyber-defense": {
+    "hours": null,
+    "modules": [
+      {
+        "title": "AI-Augmented Threat Intelligence",
+        "description": "Covers collecting, analyzing, and enriching IOC and campaign data with AI tooling, acting as the connective layer between offensive findings, defensive detection, and risk communication."
+      },
+      {
+        "title": "AI-Augmented Web, API & Mobile Application Security",
+        "description": "Covers collecting, analyzing, and enriching IOC and campaign data with AI tooling, acting as the connective layer between offensive findings, defensive detection, and risk communication."
+      },
+      {
+        "title": "Cloud & AWS Security Fundamentals",
+        "description": "Covers AWS IAM, misconfiguration patterns, and cloud-native attack surfaces \u2014 another shared surface where offensive and defensive priorities converge."
+      },
+      {
+        "title": "AI-Augmented Incident Response & Digital Forensics",
+        "description": "Covers the full IR lifecycle and AI-assisted forensic timeline reconstruction, closing the loop after an attack has been identified."
+      },
+      {
+        "title": "AI-Augmented SIEM Engineering & Threat Detection",
+        "description": "Covers correlation rule design and ATT&CK-mapped gap analysis, ensuring intel and IR findings feed back into reusable detection content."
+      }
+    ],
+    "audience": "[{\"text\":\"Final-year students & recent graduates\",\"icon\":\"GraduationCap\"},{\"text\":\"Working IT professionals upskilling into security\",\"icon\":\"Briefcase\"}]",
+    "labs": "Exploit & Escalate (Red) \u2014 Exploit a lab host and escalate privileges to full control. OWASP Top 10 Lab Walkthrough (Red) \u2014 Break a vulnerable web app across multiple OWASP categories. Correlation Rule Build (Blue) \u2014 Turn a known attack pattern into a working SIEM detection. Behavior-Driven Hunt Hypothesis (Blue) \u2014 Formulate and test a hunt hypothesis against XDR-style telemetry. IR Lifecycle Tabletop (Bridge) \u2014 Walk a simulated incident through identification, containment, eradication, and recovery.",
+    "faqs": "[]",
+    "sourceDuration": "4 Months"
+  }
+}

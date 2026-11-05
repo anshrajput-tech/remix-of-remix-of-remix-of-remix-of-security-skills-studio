@@ -1,0 +1,7 @@
+import { createFileRoute, notFound } from '@tanstack/react-router';
+import editorial from '@/data/editorial.json';
+import { PageHero } from '@/components/site/Layout';
+import { EnquiryForm } from '@/components/site/EnquiryForm';
+import { resourceHead } from '@/components/site/ResourcePages';
+export const Route=createFileRoute('/workshops/$id')({loader:({params})=>{const workshop=editorial.workshops.find(w=>w.id===params.id);if(!workshop)throw notFound();return {workshop};},head:({loaderData})=>resourceHead(loaderData?.workshop.title??'Workshop unavailable',loaderData?.workshop.description??'Practical workshops at eSecurityIN.'),component:Workshop});
+function Workshop(){const {workshop:w}=Route.useLoaderData();return <><PageHero eyebrow="Workshops" title={w.title}>{w.description}</PageHero><section className="container-site grid gap-12 py-14 lg:grid-cols-2"><div><p className="text-primary">{w.duration} · {w.days} · {w.mode}</p><h2 className="mt-8 text-2xl font-bold">Topics covered</h2><ul className="mt-5 space-y-3">{w.topics.map(t=><li key={t}>— {t}</li>)}</ul><h2 className="mt-8 text-2xl font-bold">What you take away</h2>{w.takeaways.map(t=><p key={t} className="mt-3 text-muted-foreground">{t}</p>)}<p className="mt-8 text-sm text-muted-foreground">Ask our team about available session dates and registration.</p></div><div><h2 className="mb-6 text-2xl font-bold">Enquire about this workshop</h2><EnquiryForm/></div></section></>}
